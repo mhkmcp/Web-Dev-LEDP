@@ -1,0 +1,45 @@
+.border {
+/*
+    border-width: 2px;
+    border-color: indianred;
+    border-style: solid;
+*/
+/*    border: 2px indianred solid;*/
+    border-top: 2px indianred solid;
+}
+
+.margin {
+/*    margin: 40px;*/
+    margin-top: 40px;
+}
+.para {
+    height: auto;
+/*    background: gray;*/
+}
+.para > p:first-child {
+    color: green;
+}
+
+.para > p:nth-child(3) {
+    color: fuchsia;
+}
+
+.para > p:last-child {
+    color: burlywood;
+}
+
+h2::first-letter {
+    font-size: 30px;
+    color: aquamarine;
+}
+
+h4::first-line {
+    font-size: 30px;
+    color: darkgreen;
+}
+h3::after {
+    content: 'Humayun Kabir';
+}
+h5::before {
+    content: 'My Name is ';
+}
