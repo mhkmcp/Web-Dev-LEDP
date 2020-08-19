@@ -1,0 +1,38 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background: #444;
+}
+div {
+	height: 100px;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+}
+.wrapper {
+	background: blue;
+	width: 80%;
+	margin: 0 auto;
+}
+.header {
+	background: red;
+}
+.container {
+	background: black;
+}
+.content {
+	color: black;
+	background: yellow;
+	width: 50%;
+	float: left;
+}
+.links {
+	width: 50%;
+	float: left;
+	background: green;
+}
+.footer {
+	background: gray;
+}
