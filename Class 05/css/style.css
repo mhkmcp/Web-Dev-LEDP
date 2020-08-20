@@ -1,0 +1,95 @@
+body {
+  -webkit-animation: bugfix infinite 1s;
+}
+@-webkit-keyframes bugfix {
+  from {
+    padding: 0;
+  }
+  to {
+    padding: 0;
+  }
+}
+
+h3 {
+  /* default block  */
+  display: inline;
+}
+
+span {
+  /* default is inline  */
+  display: block;
+}
+
+.none {
+  display: none;
+  color: green;
+  background: black;
+  padding: 5px;
+}
+
+ul {
+  color: white;
+  background: #222;
+}
+ul li {
+  padding: 10px;
+  /* padding, margin doesn't work with INLINE  */
+  display: inline-block;
+}
+ul li:hover {
+  color: #222;
+  background: yellow;
+}
+
+.box {
+  height: 200px;
+  border: 2px solid green;
+  color: yellow;
+  background: black;
+}
+
+.box p {
+  padding: 10px;
+  background: pink;
+  visibility: hidden;
+}
+.box h2:hover + p {
+  display: block;
+  visibility: visible;
+}
+
+/* Position Styles  */
+.box1 {
+  margin-top: 300px;
+  height: 260px;
+  width: 200px;
+  color: white;
+  background: black;
+  position: relative;
+  /* jar sapekkhe se relative  */
+}
+.box2 {
+  height: 100%;
+  width: 100%;
+  background: green;
+  position: absolute;
+  /*jarpositionseabsolute*/
+  /* right: 0; */
+  top: -100%;
+  /* bottom: 0; */
+  /* left: 0; */
+  margin: auto;
+  /* display: none; */
+  overflow: hidden;
+}
+
+.box1:hover .box2 {
+  top: 0;
+  transition: all 200ms ease-in-out;
+  /* display: inline; */
+
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  -ms-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+}
