@@ -1,0 +1,168 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.template {
+  width: 96rem;
+  margin: 0 auto;
+}
+
+/* START ROW 1  */
+.row1 {
+  height: 50rem;
+  width: 100%;
+  background: rgb(240, 204, 50);
+}
+.mid {
+  width: 75rem;
+  margin: 0 auto;
+}
+.left {
+  width: 35%;
+  float: left;
+  margin-top: 14rem;
+  /* padding-left: 8rem; */
+}
+.left h6 {
+  font-size: 1.6rem;
+}
+.left h2 {
+  margin-top: 1rem;
+  font-size: 3rem;
+}
+.left button {
+  margin-top: 1.5rem;
+  border: none;
+  padding: 1rem;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+.right {
+}
+
+.right img {
+  margin: 0 auto;
+  margin-top: 9rem;
+  height: 30rem;
+  margin-left: 16rem;
+  /*transform: ;
+  */
+  transform: rotate(25deg) scale(1.5);
+  -webkit-transform: rotate(25deg) scale(1.5);
+  -moz-transform: rotate(25deg) scale(1.5);
+  -ms-transform: rotate(25deg) scale(1.5);
+  -o-transform: rotate(25deg) scale(1.5);
+}
+/* END ROW 1  */
+
+/* START ROW 2  */
+.row2 {
+  height: 25rem;
+  background: #fff;
+  width: 100%;
+}
+.row2 .about {
+  color: #222;
+}
+.row2 .mid h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+.row2 .mid p {
+  text-indent: 2rem;
+  font-size: 1.6rem;
+  text-align: justify;
+}
+/* END ROW 2  */
+
+/* START ROW 3  */
+.row3 {
+  height: 8rem;
+  background: rgb(225, 190, 105);
+}
+.row3 h3 {
+  font-size: 2rem;
+  padding-top: 3rem;
+  text-align: center;
+  color: #fff;
+}
+/* END ROW 3  */
+
+/* START ROW 4  */
+.row4 {
+  height: 75rem;
+  width: 100%;
+  background: #fff;
+}
+.twopart {
+  height: 74rem;
+}
+.row4 .top {
+  padding-top: 2.5rem;
+  margin-bottom: 5rem;
+}
+.top h2 {
+  float: clear;
+  display: block;
+  margin-top: 3rem;
+  font-size: 2.4rem;
+}
+
+.top .part {
+  height: 25rem;
+  width: 33%;
+  float: left;
+  position: relative;
+}
+.top .part button {
+  position: absolute;
+  left: 2rem;
+  top: 2.5rem;
+  color: #fff;
+  background: rgb(225, 190, 105);
+  border: 0;
+  padding: 0.5rem;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+.top .part img {
+  height: 20rem;
+}
+.top .part .part_bottom {
+  padding: 2rem;
+  margin-right: 3rem;
+  background: rgb(225, 190, 105);
+}
+.top .part .part_bottom p {
+  font-size: 1.4rem;
+}
+.bottom {
+  margin-top: 3rem;
+}
+
+.bottom h2 {
+  padding-top: 3rem;
+  font-size: 2.4rem;
+}
+.bottom .part {
+  float: left;
+  width: 25%;
+}
+.bottom .part img {
+  height: 15rem;
+  margin: 0 auto;
+}
